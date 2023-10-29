@@ -1,0 +1,21 @@
+An app that uses a flight search API to find the cheapest flights to a set of destinations contained in a csv file.
+
+App
+flight search:
+    search_flights()
+
+
+cheapest flights
+
+destinations
+csv file
+you can have classes to handle reading from the CSV file, making API requests, and processing the flight data.
+
+Fetch Data:
+    read_from_csv()
+    iata_codes
+    prices
+    save_data_back_to_csv()
+Search Flights:
+    make_api_request()
+    check_cheap_flights()
